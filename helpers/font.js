@@ -1,27 +1,12 @@
-
-<html>
-
-	<head>
-		<title> My Final Project</title>
-	</head>
-
-	<body>
-
-
-		<h1>This is my final project</h1>
-
-
-		FORLOOP EXAMPLE
-
-
-		background ("white");
-
-		for(var i = 0; i <10 ; i++)
-			elipse(random(0, width), random(0,height), 50,50)
-
-
-
-
-	</body>
-
-</html>
+$('.letter').hover(function() {
+    // mouse in
+    $(this).addClass('show');
+}, function() {
+    // mouse out
+    var keep = $(this).data('keep');
+    
+    if (!keep) {
+        $(this).removeClass('show');
+    }
+    
+});
