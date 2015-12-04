@@ -17,6 +17,33 @@ p {
     opacity:1;
 }
 
+.letter-wrapper-q{
+    width:15;
+    height:20;
+    margin-left:5;
+    margin-top:7;
+    margin-bottom:10;
+    float:left;
+}
+
+.letter-wrapper-com{
+    width:15;
+    height:20;
+    margin-left:5;
+    margin-top:7;
+    margin-bottom:10;
+    float:left;
+}
+
+.letter-wrapper-semico{
+    width:15;
+    height:20;
+    margin-left:5;
+    margin-top:7;
+    margin-bottom:10;
+    float:left;
+}
+
 .letter {
     -webkit-transition: opacity, 400ms, ease-out;
        -moz-transition: opacity, 400ms, ease-out;
@@ -41,6 +68,7 @@ p {
        -moz-box-shadow: 0 0 20px rgba(255,255,255, .7);
             box-shadow: 0 0 20px rgba(255,255,255, .7);
 }
+
 
 .off {
     opacity:0;
