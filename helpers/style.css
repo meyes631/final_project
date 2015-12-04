@@ -64,9 +64,33 @@ p {
     height:5;
     background-color: #fff; 
     float:left;
-    -webkit-box-shadow: 0 0 20px rgba(255,255,255, .7);
-       -moz-box-shadow: 0 0 20px rgba(255,255,255, .7);
-            box-shadow: 0 0 20px rgba(255,255,255, .7);
+    -webkit-box-shadow: 0 0 20px rgba(255,255,255, 10);
+       -moz-box-shadow: 0 0 20px rgba(255,255,255, 10);
+            box-shadow: 0 0 20px rgba(255,255,255, 10);
+}
+
+.blue{
+    -webkit-box-shadow: 0 0 5px rgba(000,255,255, 3);
+       -moz-box-shadow: 0 0 5px rgba(000,255,255, 3);
+            box-shadow: 0 0 5px rgba(000,255,255, 3);
+}
+
+.yellow{
+    -webkit-box-shadow: 0 0 5px rgba(255,230,180, 3);
+       -moz-box-shadow: 0 0 5px rgba(255,230,180, 3);
+            box-shadow: 0 0 5px rgba(255,255,150, 3);
+}
+
+.green{
+    -webkit-box-shadow: 0 0 5px rgba(255,230,180, 3);
+       -moz-box-shadow: 0 0 5px rgba(255,230,180, 3);
+            box-shadow: 0 0 5px rgba(170,250,170, 3);
+}
+
+.red{
+    -webkit-box-shadow: 0 0 5px rgba(200,000,200, 3);
+       -moz-box-shadow: 0 0 5px rgba(200,200,200, 3);
+            box-shadow: 0 0 5px rgba(255,000,255, 3);
 }
 
 
