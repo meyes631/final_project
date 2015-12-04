@@ -1,0 +1,23 @@
+body {
+background-color: #000;
+}
+
+.letter-wrapper{
+    width:60;
+    height:80;
+    margin-left:45;
+    margin-top:20;
+    margin-bottom:20;
+    float:left;
+    opacity:1;
+}
+
+.pixel{
+    width:20;
+    height:20;
+    background-color: #fff; 
+    float:left;
+    -webkit-box-shadow: 0 0 50px rgba(255,255,255, .3);
+       -moz-box-shadow: 0 0 50px rgba(255,255,255, .3);
+            box-shadow: 0 0 50px rgba(255,255,255, .3);
+}
