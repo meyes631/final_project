@@ -1,0 +1,42 @@
+body {
+background-color: #000;
+}
+
+.letter-wrapper{
+    width:15;
+    height:20;
+    margin-left:5;
+    margin-top:20;
+    margin-bottom:20;
+    float:left;
+    opacity:1;
+}
+
+.letter {
+    -webkit-transition: opacity, 400ms, ease-out;
+       -moz-transition: opacity, 400ms, ease-out;
+         -o-transition: opacity, 400ms, ease-out;
+            transition: opacity, 400ms, ease-out;
+    width:15;
+    height:20;
+    opacity: .15;
+}
+
+
+.show {
+    opacity: 1;
+}
+
+.pixel{
+    width:5;
+    height:5;
+    background-color: #fff; 
+    float:left;
+    -webkit-box-shadow: 0 0 20px rgba(255,255,255, .7);
+       -moz-box-shadow: 0 0 20px rgba(255,255,255, .7);
+            box-shadow: 0 0 20px rgba(255,255,255, .7);
+}
+
+.off {
+    opacity:0;
+}
